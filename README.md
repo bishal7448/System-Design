@@ -11,6 +11,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 01 | **What is System Design, HLD & LLD?** | Fundamentals | [🎨 Open Board](https://excalidraw.com/#json=NkkGKROUy1aKHP47FRvca,eUc7K6waJE-vOoYldR8Now) | [🖼️ View Diagram](<System Design, HLD & LLD.png>) |
 | 02 | **Scalability, Reliability & Availability** | Distributed Systems | [🎨 Open Board](https://excalidraw.com/#json=-_ABu8dyJEJFz8yg9MxVG,oOUi6LOwYB6lmuggprY0_A) | [🖼️ View Diagram](<Scalability, Reliability & Availability.png>) |
 | 03 | **Latency & Throughput** | Performance | [🎨 Open Board](https://excalidraw.com/#json=JKG9nFQG5rKRf-_dS8yI4,uyHeYeooSyZ4YyZNNmKpCw) | [🖼️ View Diagram](<Latency & Throughput.png>) |
+| 04 | **Consistency Model** | Data & Storage | [🎨 Open Board](https://excalidraw.com/#json=7apZ7bvCESL36y5slSCbb,joFnGqLtyZgS-eqQrGmNlQ) | [🖼️ View Diagram](<Consistency Model.png>) |
 
 ---
 
@@ -55,6 +56,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>04. Data & Storage: Consistency Model</b></summary>
+
+<br>
+
+- **Scope**: Strong vs. Eventual Consistency, Causal Consistency, Read-Your-Writes, Consistency vs. Availability trade-offs.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=7apZ7bvCESL36y5slSCbb,joFnGqLtyZgS-eqQrGmNlQ) | [Full Image](<Consistency Model.png>)
+- **Diagram Preview**:
+
+![Consistency Model](<Consistency Model.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -64,7 +78,8 @@ System-Design/
 ├── README.md                                   # Quick index & documentation
 ├── System Design, HLD & LLD.png                # Topic 01 Diagram
 ├── Scalability, Reliability & Availability.png    # Topic 02 Diagram
-└── Latency & Throughput.png                    # Topic 03 Diagram
+├── Latency & Throughput.png                    # Topic 03 Diagram
+└── Consistency Model.png                       # Topic 04 Diagram
 ```
 
 ---
@@ -74,6 +89,7 @@ System-Design/
 - [x] Fundamentals of System Design (HLD & LLD)
 - [x] Scalability, Reliability & Availability
 - [x] Latency & Throughput Metrics
+- [x] Data Consistency Models & Guarantees
 - [ ] Load Balancers & Reverse Proxies
 - [ ] Caching Strategies (Redis, Memcached)
 - [ ] Database Sharding & Replication
