@@ -1,2 +1,3 @@
 What is System Design, HLD & LLD? -> https://excalidraw.com/#json=NkkGKROUy1aKHP47FRvca,eUc7K6waJE-vOoYldR8Now
 Scalability, Reliability & Availability -> https://excalidraw.com/#json=-_ABu8dyJEJFz8yg9MxVG,oOUi6LOwYB6lmuggprY0_A
+Latency & Throughput -> https://excalidraw.com/#json=JKG9nFQG5rKRf-_dS8yI4,uyHeYeooSyZ4YyZNNmKpCw

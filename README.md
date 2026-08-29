@@ -10,6 +10,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 |---|---|---|---|---|
 | 01 | **What is System Design, HLD & LLD?** | Fundamentals | [🎨 Open Board](https://excalidraw.com/#json=NkkGKROUy1aKHP47FRvca,eUc7K6waJE-vOoYldR8Now) | [🖼️ View Diagram](<System Design, HLD & LLD.png>) |
 | 02 | **Scalability, Reliability & Availability** | Distributed Systems | [🎨 Open Board](https://excalidraw.com/#json=-_ABu8dyJEJFz8yg9MxVG,oOUi6LOwYB6lmuggprY0_A) | [🖼️ View Diagram](<Scalability, Reliability & Availability.png>) |
+| 03 | **Latency & Throughput** | Performance | [🎨 Open Board](https://excalidraw.com/#json=JKG9nFQG5rKRf-_dS8yI4,uyHeYeooSyZ4YyZNNmKpCw) | [🖼️ View Diagram](<Latency & Throughput.png>) |
 
 ---
 
@@ -41,6 +42,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>03. Performance: Latency & Throughput</b></summary>
+
+<br>
+
+- **Scope**: Response Time vs. Network/Processing Latency, System Throughput (RPS/TPS), Performance Bottlenecks & Optimization.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=JKG9nFQG5rKRf-_dS8yI4,uyHeYeooSyZ4YyZNNmKpCw) | [Full Image](<Latency & Throughput.png>)
+- **Diagram Preview**:
+
+![Latency & Throughput](<Latency & Throughput.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -49,13 +63,17 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 System-Design/
 ├── README.md                                   # Quick index & documentation
 ├── System Design, HLD & LLD.png                # Topic 01 Diagram
-└── Scalability, Reliability & Availability.png    # Topic 02 Diagram
+├── Scalability, Reliability & Availability.png    # Topic 02 Diagram
+└── Latency & Throughput.png                    # Topic 03 Diagram
 ```
 
 ---
 
 ## 🔄 Planned Topics Roadmap
 
+- [x] Fundamentals of System Design (HLD & LLD)
+- [x] Scalability, Reliability & Availability
+- [x] Latency & Throughput Metrics
 - [ ] Load Balancers & Reverse Proxies
 - [ ] Caching Strategies (Redis, Memcached)
 - [ ] Database Sharding & Replication
