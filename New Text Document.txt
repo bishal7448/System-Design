@@ -2,3 +2,4 @@ What is System Design, HLD & LLD? -> https://excalidraw.com/#json=NkkGKROUy1aKHP
 Scalability, Reliability & Availability -> https://excalidraw.com/#json=-_ABu8dyJEJFz8yg9MxVG,oOUi6LOwYB6lmuggprY0_A
 Latency & Throughput -> https://excalidraw.com/#json=JKG9nFQG5rKRf-_dS8yI4,uyHeYeooSyZ4YyZNNmKpCw
 Consistency Model -> https://excalidraw.com/#json=7apZ7bvCESL36y5slSCbb,joFnGqLtyZgS-eqQrGmNlQ
+Functional vs Non-Functional Requirements -> https://excalidraw.com/#json=Qa3hN2WtoGpPbNmN34aB4,TmXYrRULHtLd5JKjo0sQwA

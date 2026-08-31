@@ -12,6 +12,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 02 | **Scalability, Reliability & Availability** | Distributed Systems | [🎨 Open Board](https://excalidraw.com/#json=-_ABu8dyJEJFz8yg9MxVG,oOUi6LOwYB6lmuggprY0_A) | [🖼️ View Diagram](<Scalability, Reliability & Availability.png>) |
 | 03 | **Latency & Throughput** | Performance | [🎨 Open Board](https://excalidraw.com/#json=JKG9nFQG5rKRf-_dS8yI4,uyHeYeooSyZ4YyZNNmKpCw) | [🖼️ View Diagram](<Latency & Throughput.png>) |
 | 04 | **Consistency Model** | Data & Storage | [🎨 Open Board](https://excalidraw.com/#json=7apZ7bvCESL36y5slSCbb,joFnGqLtyZgS-eqQrGmNlQ) | [🖼️ View Diagram](<Consistency Model.png>) |
+| 05 | **Functional vs Non-Functional Requirements** | Fundamentals | [🎨 Open Board](https://excalidraw.com/#json=Qa3hN2WtoGpPbNmN34aB4,TmXYrRULHtLd5JKjo0sQwA) | [🖼️ View Diagram](<Functional vs Non-Functional Requirements.png>) |
 
 ---
 
@@ -69,17 +70,31 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>05. Fundamentals: Functional vs Non-Functional Requirements</b></summary>
+
+<br>
+
+- **Scope**: Defining feature specifications (Functional) vs. quality attributes (Non-Functional like performance, security, availability, scalability).
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=Qa3hN2WtoGpPbNmN34aB4,TmXYrRULHtLd5JKjo0sQwA) | [Full Image](<Functional vs Non-Functional Requirements.png>)
+- **Diagram Preview**:
+
+![Functional vs Non-Functional Requirements](<Functional vs Non-Functional Requirements.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
 
 ```text
 System-Design/
-├── README.md                                   # Quick index & documentation
-├── System Design, HLD & LLD.png                # Topic 01 Diagram
-├── Scalability, Reliability & Availability.png    # Topic 02 Diagram
-├── Latency & Throughput.png                    # Topic 03 Diagram
-└── Consistency Model.png                       # Topic 04 Diagram
+├── README.md                                       # Quick index & documentation
+├── System Design, HLD & LLD.png                    # Topic 01 Diagram
+├── Scalability, Reliability & Availability.png        # Topic 02 Diagram
+├── Latency & Throughput.png                        # Topic 03 Diagram
+├── Consistency Model.png                           # Topic 04 Diagram
+└── Functional vs Non-Functional Requirements.png   # Topic 05 Diagram
 ```
 
 ---
@@ -87,6 +102,7 @@ System-Design/
 ## 🔄 Planned Topics Roadmap
 
 - [x] Fundamentals of System Design (HLD & LLD)
+- [x] Functional vs Non-Functional Requirements Analysis
 - [x] Scalability, Reliability & Availability
 - [x] Latency & Throughput Metrics
 - [x] Data Consistency Models & Guarantees
