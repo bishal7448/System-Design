@@ -13,6 +13,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 03 | **Latency & Throughput** | Performance | [🎨 Open Board](https://excalidraw.com/#json=JKG9nFQG5rKRf-_dS8yI4,uyHeYeooSyZ4YyZNNmKpCw) | [🖼️ View Diagram](<Latency & Throughput.png>) |
 | 04 | **Consistency Model** | Data & Storage | [🎨 Open Board](https://excalidraw.com/#json=7apZ7bvCESL36y5slSCbb,joFnGqLtyZgS-eqQrGmNlQ) | [🖼️ View Diagram](<Consistency Model.png>) |
 | 05 | **Functional vs Non-Functional Requirements** | Fundamentals | [🎨 Open Board](https://excalidraw.com/#json=Qa3hN2WtoGpPbNmN34aB4,TmXYrRULHtLd5JKjo0sQwA) | [🖼️ View Diagram](<Functional vs Non-Functional Requirements.png>) |
+| 06 | **Capacity Estimation** | Estimation & Sizing | [🎨 Open Board](https://excalidraw.com/#json=_WdZ_XJvVkVYURq6xpL3H,-8CMciJnlIRY48y2EufQGg) | [🖼️ View Diagram](<Capacity Estimation.png>) |
 
 ---
 
@@ -83,6 +84,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>06. Estimation & Sizing: Capacity Estimation</b></summary>
+
+<br>
+
+- **Scope**: Back-of-the-envelope calculations, Traffic (RPS/QPS), Bandwidth (ingress/egress), Storage requirements (RAM, SSD/HDD), and Server scaling estimation.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=_WdZ_XJvVkVYURq6xpL3H,-8CMciJnlIRY48y2EufQGg) | [Full Image](<Capacity Estimation.png>)
+- **Diagram Preview**:
+
+![Capacity Estimation](<Capacity Estimation.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -94,7 +108,8 @@ System-Design/
 ├── Scalability, Reliability & Availability.png        # Topic 02 Diagram
 ├── Latency & Throughput.png                        # Topic 03 Diagram
 ├── Consistency Model.png                           # Topic 04 Diagram
-└── Functional vs Non-Functional Requirements.png   # Topic 05 Diagram
+├── Functional vs Non-Functional Requirements.png   # Topic 05 Diagram
+└── Capacity Estimation.png                         # Topic 06 Diagram
 ```
 
 ---
@@ -106,6 +121,7 @@ System-Design/
 - [x] Scalability, Reliability & Availability
 - [x] Latency & Throughput Metrics
 - [x] Data Consistency Models & Guarantees
+- [x] Back-of-the-envelope Capacity Estimation (Traffic, Storage, Bandwidth)
 - [ ] Load Balancers & Reverse Proxies
 - [ ] Caching Strategies (Redis, Memcached)
 - [ ] Database Sharding & Replication
