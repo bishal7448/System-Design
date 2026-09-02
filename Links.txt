@@ -4,3 +4,4 @@ Latency & Throughput -> https://excalidraw.com/#json=JKG9nFQG5rKRf-_dS8yI4,uyHeY
 Consistency Model -> https://excalidraw.com/#json=7apZ7bvCESL36y5slSCbb,joFnGqLtyZgS-eqQrGmNlQ
 Functional vs Non-Functional Requirements -> https://excalidraw.com/#json=Qa3hN2WtoGpPbNmN34aB4,TmXYrRULHtLd5JKjo0sQwA
 Capacity Estimation -> https://excalidraw.com/#json=_WdZ_XJvVkVYURq6xpL3H,-8CMciJnlIRY48y2EufQGg
+High Level Architecture Design -> https://excalidraw.com/#json=b3AajNTtTKSd08Ao1YWjA,gHDnRm1wRfF92DLHlbzdpg

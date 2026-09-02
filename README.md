@@ -14,6 +14,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 04 | **Consistency Model** | Data & Storage | [🎨 Open Board](https://excalidraw.com/#json=7apZ7bvCESL36y5slSCbb,joFnGqLtyZgS-eqQrGmNlQ) | [🖼️ View Diagram](<Consistency Model.png>) |
 | 05 | **Functional vs Non-Functional Requirements** | Fundamentals | [🎨 Open Board](https://excalidraw.com/#json=Qa3hN2WtoGpPbNmN34aB4,TmXYrRULHtLd5JKjo0sQwA) | [🖼️ View Diagram](<Functional vs Non-Functional Requirements.png>) |
 | 06 | **Capacity Estimation** | Estimation & Sizing | [🎨 Open Board](https://excalidraw.com/#json=_WdZ_XJvVkVYURq6xpL3H,-8CMciJnlIRY48y2EufQGg) | [🖼️ View Diagram](<Capacity Estimation.png>) |
+| 07 | **High Level Architecture Design** | Core Architecture | [🎨 Open Board](https://excalidraw.com/#json=b3AajNTtTKSd08Ao1YWjA,gHDnRm1wRfF92DLHlbzdpg) | [🖼️ View Diagram](<High Level Architecture Design.png>) |
 
 ---
 
@@ -97,6 +98,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>07. Architecture: High Level Architecture Design</b></summary>
+
+<br>
+
+- **Scope**: End-to-end system architecture blueprints, Clients, DNS, Load Balancers, API Gateways, Microservices, Databases, Caching layer, and Message Brokers.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=b3AajNTtTKSd08Ao1YWjA,gHDnRm1wRfF92DLHlbzdpg) | [Full Image](<High Level Architecture Design.png>)
+- **Diagram Preview**:
+
+![High Level Architecture Design](<High Level Architecture Design.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -109,7 +123,8 @@ System-Design/
 ├── Latency & Throughput.png                        # Topic 03 Diagram
 ├── Consistency Model.png                           # Topic 04 Diagram
 ├── Functional vs Non-Functional Requirements.png   # Topic 05 Diagram
-└── Capacity Estimation.png                         # Topic 06 Diagram
+├── Capacity Estimation.png                         # Topic 06 Diagram
+└── High Level Architecture Design.png              # Topic 07 Diagram
 ```
 
 ---
@@ -122,6 +137,7 @@ System-Design/
 - [x] Latency & Throughput Metrics
 - [x] Data Consistency Models & Guarantees
 - [x] Back-of-the-envelope Capacity Estimation (Traffic, Storage, Bandwidth)
+- [x] High-Level System Architecture Design & Component Workflow
 - [ ] Load Balancers & Reverse Proxies
 - [ ] Caching Strategies (Redis, Memcached)
 - [ ] Database Sharding & Replication
