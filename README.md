@@ -15,6 +15,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 05 | **Functional vs Non-Functional Requirements** | Fundamentals | [🎨 Open Board](https://excalidraw.com/#json=Qa3hN2WtoGpPbNmN34aB4,TmXYrRULHtLd5JKjo0sQwA) | [🖼️ View Diagram](<Functional vs Non-Functional Requirements.png>) |
 | 06 | **Capacity Estimation** | Estimation & Sizing | [🎨 Open Board](https://excalidraw.com/#json=_WdZ_XJvVkVYURq6xpL3H,-8CMciJnlIRY48y2EufQGg) | [🖼️ View Diagram](<Capacity Estimation.png>) |
 | 07 | **High Level Architecture Design** | Core Architecture | [🎨 Open Board](https://excalidraw.com/#json=b3AajNTtTKSd08Ao1YWjA,gHDnRm1wRfF92DLHlbzdpg) | [🖼️ View Diagram](<High Level Architecture Design.png>) |
+| 08 | **Basics of Networking - HTTP/HTTPS/TCP/UDP** | Networking | [🎨 Open Board](https://excalidraw.com/#json=8LZE95rK068gULwcbpuhk,3LKJl53R2bmGcHotF9IYkg) | [🖼️ View Diagram](<Basics of Networking - HTTP-HTTPS-TCP-UDP.png>) |
 
 ---
 
@@ -111,6 +112,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>08. Networking: Basics of Networking - HTTP, HTTPS, TCP & UDP</b></summary>
+
+<br>
+
+- **Scope**: OSI & TCP/IP networking models, TCP 3-Way Handshake, UDP datagrams, HTTP methods/headers, and TLS/HTTPS security handshake.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=8LZE95rK068gULwcbpuhk,3LKJl53R2bmGcHotF9IYkg) | [Full Image](<Basics of Networking - HTTP-HTTPS-TCP-UDP.png>)
+- **Diagram Preview**:
+
+![Basics of Networking - HTTP-HTTPS-TCP-UDP](<Basics of Networking - HTTP-HTTPS-TCP-UDP.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -124,7 +138,8 @@ System-Design/
 ├── Consistency Model.png                           # Topic 04 Diagram
 ├── Functional vs Non-Functional Requirements.png   # Topic 05 Diagram
 ├── Capacity Estimation.png                         # Topic 06 Diagram
-└── High Level Architecture Design.png              # Topic 07 Diagram
+├── High Level Architecture Design.png              # Topic 07 Diagram
+└── Basics of Networking - HTTP-HTTPS-TCP-UDP.png   # Topic 08 Diagram
 ```
 
 ---
@@ -138,6 +153,7 @@ System-Design/
 - [x] Data Consistency Models & Guarantees
 - [x] Back-of-the-envelope Capacity Estimation (Traffic, Storage, Bandwidth)
 - [x] High-Level System Architecture Design & Component Workflow
+- [x] Basics of Networking Protocols (HTTP, HTTPS, TCP, UDP)
 - [ ] Load Balancers & Reverse Proxies
 - [ ] Caching Strategies (Redis, Memcached)
 - [ ] Database Sharding & Replication
