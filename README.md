@@ -16,6 +16,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 06 | **Capacity Estimation** | Estimation & Sizing | [🎨 Open Board](https://excalidraw.com/#json=_WdZ_XJvVkVYURq6xpL3H,-8CMciJnlIRY48y2EufQGg) | [🖼️ View Diagram](<Capacity Estimation.png>) |
 | 07 | **High Level Architecture Design** | Core Architecture | [🎨 Open Board](https://excalidraw.com/#json=b3AajNTtTKSd08Ao1YWjA,gHDnRm1wRfF92DLHlbzdpg) | [🖼️ View Diagram](<High Level Architecture Design.png>) |
 | 08 | **Basics of Networking - HTTP/HTTPS/TCP/UDP** | Networking | [🎨 Open Board](https://excalidraw.com/#json=8LZE95rK068gULwcbpuhk,3LKJl53R2bmGcHotF9IYkg) | [🖼️ View Diagram](<Basics of Networking - HTTP-HTTPS-TCP-UDP.png>) |
+| 09 | **DNS and Load Balancing** | Infrastructure | [🎨 Open Board](https://excalidraw.com/#json=e3ifl74Wx2TeroP5hlTgJ,voBuTajCsgWS3vDMlHfyDw) | [🖼️ View Diagram](<DNS and Load Balancing.png>) |
 
 ---
 
@@ -125,6 +126,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>09. Infrastructure: DNS and Load Balancing</b></summary>
+
+<br>
+
+- **Scope**: Domain Name System resolution flow, DNS record types (A, CNAME, NS), L4 vs L7 Load Balancers, Routing algorithms (Round Robin, Least Connections, IP Hash), and High Availability.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=e3ifl74Wx2TeroP5hlTgJ,voBuTajCsgWS3vDMlHfyDw) | [Full Image](<DNS and Load Balancing.png>)
+- **Diagram Preview**:
+
+![DNS and Load Balancing](<DNS and Load Balancing.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -133,13 +147,14 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 System-Design/
 ├── README.md                                       # Quick index & documentation
 ├── System Design, HLD & LLD.png                    # Topic 01 Diagram
-├── Scalability, Reliability & Availability.png        # Topic 02 Diagram
+├── Scalability, Reliability & Availability.png     # Topic 02 Diagram
 ├── Latency & Throughput.png                        # Topic 03 Diagram
 ├── Consistency Model.png                           # Topic 04 Diagram
 ├── Functional vs Non-Functional Requirements.png   # Topic 05 Diagram
 ├── Capacity Estimation.png                         # Topic 06 Diagram
 ├── High Level Architecture Design.png              # Topic 07 Diagram
-└── Basics of Networking - HTTP-HTTPS-TCP-UDP.png   # Topic 08 Diagram
+├── Basics of Networking - HTTP-HTTPS-TCP-UDP.png   # Topic 08 Diagram
+└── DNS and Load Balancing.png                      # Topic 09 Diagram
 ```
 
 ---
@@ -154,7 +169,7 @@ System-Design/
 - [x] Back-of-the-envelope Capacity Estimation (Traffic, Storage, Bandwidth)
 - [x] High-Level System Architecture Design & Component Workflow
 - [x] Basics of Networking Protocols (HTTP, HTTPS, TCP, UDP)
-- [ ] Load Balancers & Reverse Proxies
+- [x] DNS Routing & Load Balancing (L4 / L7)
 - [ ] Caching Strategies (Redis, Memcached)
 - [ ] Database Sharding & Replication
 - [ ] Message Queues (Kafka, RabbitMQ)
