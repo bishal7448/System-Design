@@ -17,6 +17,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 07 | **High Level Architecture Design** | Core Architecture | [🎨 Open Board](https://excalidraw.com/#json=b3AajNTtTKSd08Ao1YWjA,gHDnRm1wRfF92DLHlbzdpg) | [🖼️ View Diagram](<High Level Architecture Design.png>) |
 | 08 | **Basics of Networking - HTTP/HTTPS/TCP/UDP** | Networking | [🎨 Open Board](https://excalidraw.com/#json=8LZE95rK068gULwcbpuhk,3LKJl53R2bmGcHotF9IYkg) | [🖼️ View Diagram](<Basics of Networking - HTTP-HTTPS-TCP-UDP.png>) |
 | 09 | **DNS and Load Balancing** | Infrastructure | [🎨 Open Board](https://excalidraw.com/#json=e3ifl74Wx2TeroP5hlTgJ,voBuTajCsgWS3vDMlHfyDw) | [🖼️ View Diagram](<DNS and Load Balancing.png>) |
+| 10 | **RESTful APIs** | APIs & Protocols | [🎨 Open Board](https://excalidraw.com/#json=cU35Ma24lHtCln6r3wvEX,Q-jzVRTIhECED-qyOTBbPg) | [🖼️ View Diagram](<RESTful APIs.png>) |
 
 ---
 
@@ -139,6 +140,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>10. APIs: RESTful APIs</b></summary>
+
+<br>
+
+- **Scope**: REST architectural constraints (Statelessness, Client-Server, Cacheability, Layered System, Uniform Interface), HTTP Verbs (GET, POST, PUT, PATCH, DELETE), Status Codes (2xx, 3xx, 4xx, 5xx), Resource URI design, and API Best Practices.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=cU35Ma24lHtCln6r3wvEX,Q-jzVRTIhECED-qyOTBbPg) | [Full Image](<RESTful APIs.png>)
+- **Diagram Preview**:
+
+![RESTful APIs](<RESTful APIs.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -154,7 +168,8 @@ System-Design/
 ├── Capacity Estimation.png                         # Topic 06 Diagram
 ├── High Level Architecture Design.png              # Topic 07 Diagram
 ├── Basics of Networking - HTTP-HTTPS-TCP-UDP.png   # Topic 08 Diagram
-└── DNS and Load Balancing.png                      # Topic 09 Diagram
+├── DNS and Load Balancing.png                      # Topic 09 Diagram
+└── RESTful APIs.png                                # Topic 10 Diagram
 ```
 
 ---
@@ -170,6 +185,7 @@ System-Design/
 - [x] High-Level System Architecture Design & Component Workflow
 - [x] Basics of Networking Protocols (HTTP, HTTPS, TCP, UDP)
 - [x] DNS Routing & Load Balancing (L4 / L7)
+- [x] RESTful API Design Principles & HTTP Protocols
 - [ ] Caching Strategies (Redis, Memcached)
 - [ ] Database Sharding & Replication
 - [ ] Message Queues (Kafka, RabbitMQ)

@@ -7,3 +7,4 @@ Capacity Estimation -> https://excalidraw.com/#json=_WdZ_XJvVkVYURq6xpL3H,-8CMci
 High Level Architecture Design -> https://excalidraw.com/#json=b3AajNTtTKSd08Ao1YWjA,gHDnRm1wRfF92DLHlbzdpg
 Basics of Networking - HTTP-HTTPS-TCP-UDP -> https://excalidraw.com/#json=8LZE95rK068gULwcbpuhk,3LKJl53R2bmGcHotF9IYkg
 DNS and Load Balancing -> https://excalidraw.com/#json=e3ifl74Wx2TeroP5hlTgJ,voBuTajCsgWS3vDMlHfyDw
+RESTful APIs -> https://excalidraw.com/#json=cU35Ma24lHtCln6r3wvEX,Q-jzVRTIhECED-qyOTBbPg
