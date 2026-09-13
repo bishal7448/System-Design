@@ -18,6 +18,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 08 | **Basics of Networking - HTTP/HTTPS/TCP/UDP** | Networking | [🎨 Open Board](https://excalidraw.com/#json=8LZE95rK068gULwcbpuhk,3LKJl53R2bmGcHotF9IYkg) | [🖼️ View Diagram](<Basics of Networking - HTTP-HTTPS-TCP-UDP.png>) |
 | 09 | **DNS and Load Balancing** | Infrastructure | [🎨 Open Board](https://excalidraw.com/#json=e3ifl74Wx2TeroP5hlTgJ,voBuTajCsgWS3vDMlHfyDw) | [🖼️ View Diagram](<DNS and Load Balancing.png>) |
 | 10 | **RESTful APIs** | APIs & Protocols | [🎨 Open Board](https://excalidraw.com/#json=cU35Ma24lHtCln6r3wvEX,Q-jzVRTIhECED-qyOTBbPg) | [🖼️ View Diagram](<RESTful APIs.png>) |
+| 11 | **API Rate Limiting and Throttling** | API & Traffic Control | [🎨 Open Board](https://excalidraw.com/#json=IDsR7SAEk3FNSFcrhKa8o,2Mts3-fPVqS5EmyKd_r1Kg) | [🖼️ View Diagram](<API Rate Limiting and Throttling.png>) |
 
 ---
 
@@ -153,6 +154,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>11. APIs: API Rate Limiting and Throttling</b></summary>
+
+<br>
+
+- **Scope**: Rate Limiting algorithms (Token Bucket, Leaky Bucket, Fixed Window Counter, Sliding Window Log, Sliding Window Counter), Distributed Rate Limiting with Redis, HTTP 429 status response, rate limit headers, and Throttling strategies.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=IDsR7SAEk3FNSFcrhKa8o,2Mts3-fPVqS5EmyKd_r1Kg) | [Full Image](<API Rate Limiting and Throttling.png>)
+- **Diagram Preview**:
+
+![API Rate Limiting and Throttling](<API Rate Limiting and Throttling.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -169,7 +183,8 @@ System-Design/
 ├── High Level Architecture Design.png              # Topic 07 Diagram
 ├── Basics of Networking - HTTP-HTTPS-TCP-UDP.png   # Topic 08 Diagram
 ├── DNS and Load Balancing.png                      # Topic 09 Diagram
-└── RESTful APIs.png                                # Topic 10 Diagram
+├── RESTful APIs.png                                # Topic 10 Diagram
+└── API Rate Limiting and Throttling.png            # Topic 11 Diagram
 ```
 
 ---
@@ -186,10 +201,10 @@ System-Design/
 - [x] Basics of Networking Protocols (HTTP, HTTPS, TCP, UDP)
 - [x] DNS Routing & Load Balancing (L4 / L7)
 - [x] RESTful API Design Principles & HTTP Protocols
+- [x] Rate Limiting Algorithms & Throttling Strategies
 - [ ] Caching Strategies (Redis, Memcached)
 - [ ] Database Sharding & Replication
 - [ ] Message Queues (Kafka, RabbitMQ)
-- [ ] Rate Limiting & API Gateways
 - [ ] CAP & PACELC Theorems
 - [ ] Consistent Hashing
 
