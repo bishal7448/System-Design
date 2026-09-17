@@ -1,12 +1,12 @@
 # 🏗️ System Design Study Material
 
-A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and Low-Level Design (LLD) study notes and visual Excalidraw diagrams.
+A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and Low-Level Design (LLD) study notes and visual Excalidraw / Eraser diagrams.
 
 ---
 
 ## 📌 Quick Topic Index
 
-| # | Topic | Category | Excalidraw Board | Visual Diagram |
+| # | Topic | Category | Interactive Board | Visual Diagram |
 |---|---|---|---|---|
 | 01 | **What is System Design, HLD & LLD?** | Fundamentals | [🎨 Open Board](https://excalidraw.com/#json=NkkGKROUy1aKHP47FRvca,eUc7K6waJE-vOoYldR8Now) | [🖼️ View Diagram](<System Design, HLD & LLD.png>) |
 | 02 | **Scalability, Reliability & Availability** | Distributed Systems | [🎨 Open Board](https://excalidraw.com/#json=-_ABu8dyJEJFz8yg9MxVG,oOUi6LOwYB6lmuggprY0_A) | [🖼️ View Diagram](<Scalability, Reliability & Availability.png>) |
@@ -20,6 +20,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 10 | **RESTful APIs** | APIs & Protocols | [🎨 Open Board](https://excalidraw.com/#json=cU35Ma24lHtCln6r3wvEX,Q-jzVRTIhECED-qyOTBbPg) | [🖼️ View Diagram](<RESTful APIs.png>) |
 | 11 | **API Rate Limiting and Throttling** | API & Traffic Control | [🎨 Open Board](https://excalidraw.com/#json=IDsR7SAEk3FNSFcrhKa8o,2Mts3-fPVqS5EmyKd_r1Kg) | [🖼️ View Diagram](<API Rate Limiting and Throttling.png>) |
 | 12 | **Content Delivery Network (CDN)** | Infrastructure & Caching | [🎨 Open Board](https://excalidraw.com/#json=_BowhjhNIDQlu_LJutmeQ,QF4_Cnnayia4UWSnLeNyRg) | [🖼️ View Diagram](<Content Delivery Network.png>) |
+| 13 | **Schema Design and Relationships** | Database & Data Modeling | [✏️ Open Eraser Board](https://app.eraser.io/workspace/cM85Y5gZ5j9mLCTXaxp1) | [🖼️ View Diagram](<Schema Design and Relationships.png>) |
 
 ---
 
@@ -181,6 +182,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>13. Database: Schema Design and Relationships</b></summary>
+
+<br>
+
+- **Scope**: Entity-Relationship modeling (1:1, 1:N, N:M), Relational (SQL) vs. Non-Relational (NoSQL) schema design, Normalization vs. Denormalization, Primary/Foreign Keys, and Indexing strategies.
+- **Links**: [Eraser Workspace](https://app.eraser.io/workspace/cM85Y5gZ5j9mLCTXaxp1) | [Full Image](<Schema Design and Relationships.png>)
+- **Diagram Preview**:
+
+![Schema Design and Relationships](<Schema Design and Relationships.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -199,7 +213,8 @@ System-Design/
 ├── DNS and Load Balancing.png                      # Topic 09 Diagram
 ├── RESTful APIs.png                                # Topic 10 Diagram
 ├── API Rate Limiting and Throttling.png            # Topic 11 Diagram
-└── Content Delivery Network.png                    # Topic 12 Diagram
+├── Content Delivery Network.png                    # Topic 12 Diagram
+└── Schema Design and Relationships.png             # Topic 13 Diagram
 ```
 
 ---
@@ -218,6 +233,7 @@ System-Design/
 - [x] RESTful API Design Principles & HTTP Protocols
 - [x] Rate Limiting Algorithms & Throttling Strategies
 - [x] Content Delivery Networks (CDN) & Edge Caching
+- [x] Database Schema Design, Normalization & ER Relationships
 - [ ] Caching Strategies (Redis, Memcached)
 - [ ] Database Sharding & Replication
 - [ ] Message Queues (Kafka, RabbitMQ)

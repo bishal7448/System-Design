@@ -10,3 +10,4 @@ DNS and Load Balancing -> https://excalidraw.com/#json=e3ifl74Wx2TeroP5hlTgJ,voB
 RESTful APIs -> https://excalidraw.com/#json=cU35Ma24lHtCln6r3wvEX,Q-jzVRTIhECED-qyOTBbPg
 API Rate Limiting and Throttling -> https://excalidraw.com/#json=IDsR7SAEk3FNSFcrhKa8o,2Mts3-fPVqS5EmyKd_r1Kg
 Content Delivery Network -> https://excalidraw.com/#json=_BowhjhNIDQlu_LJutmeQ,QF4_Cnnayia4UWSnLeNyRg
+Schema Design and Relationships -> https://app.eraser.io/workspace/cM85Y5gZ5j9mLCTXaxp1
