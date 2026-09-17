@@ -19,6 +19,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 09 | **DNS and Load Balancing** | Infrastructure | [🎨 Open Board](https://excalidraw.com/#json=e3ifl74Wx2TeroP5hlTgJ,voBuTajCsgWS3vDMlHfyDw) | [🖼️ View Diagram](<DNS and Load Balancing.png>) |
 | 10 | **RESTful APIs** | APIs & Protocols | [🎨 Open Board](https://excalidraw.com/#json=cU35Ma24lHtCln6r3wvEX,Q-jzVRTIhECED-qyOTBbPg) | [🖼️ View Diagram](<RESTful APIs.png>) |
 | 11 | **API Rate Limiting and Throttling** | API & Traffic Control | [🎨 Open Board](https://excalidraw.com/#json=IDsR7SAEk3FNSFcrhKa8o,2Mts3-fPVqS5EmyKd_r1Kg) | [🖼️ View Diagram](<API Rate Limiting and Throttling.png>) |
+| 12 | **Content Delivery Network (CDN)** | Infrastructure & Caching | [🎨 Open Board](https://excalidraw.com/#json=_BowhjhNIDQlu_LJutmeQ,QF4_Cnnayia4UWSnLeNyRg) | [🖼️ View Diagram](<Content Delivery Network.png>) |
 
 ---
 
@@ -167,6 +168,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>12. Infrastructure: Content Delivery Network (CDN)</b></summary>
+
+<br>
+
+- **Scope**: Edge Servers & PoPs (Points of Presence), Push vs. Pull CDNs, Static & Dynamic Content Acceleration, Cache Invalidation, TTL policies, Anycast DNS routing, and Edge Security.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=_BowhjhNIDQlu_LJutmeQ,QF4_Cnnayia4UWSnLeNyRg) | [Full Image](<Content Delivery Network.png>)
+- **Diagram Preview**:
+
+![Content Delivery Network](<Content Delivery Network.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -184,7 +198,8 @@ System-Design/
 ├── Basics of Networking - HTTP-HTTPS-TCP-UDP.png   # Topic 08 Diagram
 ├── DNS and Load Balancing.png                      # Topic 09 Diagram
 ├── RESTful APIs.png                                # Topic 10 Diagram
-└── API Rate Limiting and Throttling.png            # Topic 11 Diagram
+├── API Rate Limiting and Throttling.png            # Topic 11 Diagram
+└── Content Delivery Network.png                    # Topic 12 Diagram
 ```
 
 ---
@@ -202,6 +217,7 @@ System-Design/
 - [x] DNS Routing & Load Balancing (L4 / L7)
 - [x] RESTful API Design Principles & HTTP Protocols
 - [x] Rate Limiting Algorithms & Throttling Strategies
+- [x] Content Delivery Networks (CDN) & Edge Caching
 - [ ] Caching Strategies (Redis, Memcached)
 - [ ] Database Sharding & Replication
 - [ ] Message Queues (Kafka, RabbitMQ)
