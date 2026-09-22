@@ -21,6 +21,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 11 | **API Rate Limiting and Throttling** | API & Traffic Control | [🎨 Open Board](https://excalidraw.com/#json=IDsR7SAEk3FNSFcrhKa8o,2Mts3-fPVqS5EmyKd_r1Kg) | [🖼️ View Diagram](<API Rate Limiting and Throttling.png>) |
 | 12 | **Content Delivery Network (CDN)** | Infrastructure & Caching | [🎨 Open Board](https://excalidraw.com/#json=_BowhjhNIDQlu_LJutmeQ,QF4_Cnnayia4UWSnLeNyRg) | [🖼️ View Diagram](<Content Delivery Network.png>) |
 | 13 | **Schema Design and Relationships** | Database & Data Modeling | [✏️ Open Eraser Board](https://app.eraser.io/workspace/cM85Y5gZ5j9mLCTXaxp1) | [🖼️ View Diagram](<Schema Design and Relationships.png>) |
+| 14 | **Caching** | Caching & Performance | [✏️ Open Eraser Board](https://app.eraser.io/workspace/D48jD4djD7UlXDElsLoP?origin=share) | [🖼️ View Diagram](<Caching.png>) |
 
 ---
 
@@ -195,6 +196,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>14. Caching: Caching Strategies & Architecture</b></summary>
+
+<br>
+
+- **Scope**: In-memory caching (Redis, Memcached), Caching Patterns (Cache-Aside, Write-Through, Write-Behind, Read-Through), Eviction Policies (LRU, LFU, FIFO), Cache Stampede / Thundering Herd mitigation, and Distributed Caching.
+- **Links**: [Eraser Workspace](https://app.eraser.io/workspace/D48jD4djD7UlXDElsLoP?origin=share) | [Full Image](<Caching.png>)
+- **Diagram Preview**:
+
+![Caching](<Caching.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -214,7 +228,8 @@ System-Design/
 ├── RESTful APIs.png                                # Topic 10 Diagram
 ├── API Rate Limiting and Throttling.png            # Topic 11 Diagram
 ├── Content Delivery Network.png                    # Topic 12 Diagram
-└── Schema Design and Relationships.png             # Topic 13 Diagram
+├── Schema Design and Relationships.png             # Topic 13 Diagram
+└── Caching.png                                     # Topic 14 Diagram
 ```
 
 ---
@@ -234,7 +249,7 @@ System-Design/
 - [x] Rate Limiting Algorithms & Throttling Strategies
 - [x] Content Delivery Networks (CDN) & Edge Caching
 - [x] Database Schema Design, Normalization & ER Relationships
-- [ ] Caching Strategies (Redis, Memcached)
+- [x] Caching Strategies & Architecture (Redis, Memcached, Patterns & Eviction)
 - [ ] Database Sharding & Replication
 - [ ] Message Queues (Kafka, RabbitMQ)
 - [ ] CAP & PACELC Theorems
