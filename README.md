@@ -22,6 +22,8 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 12 | **Content Delivery Network (CDN)** | Infrastructure & Caching | [🎨 Open Board](https://excalidraw.com/#json=_BowhjhNIDQlu_LJutmeQ,QF4_Cnnayia4UWSnLeNyRg) | [🖼️ View Diagram](<Content Delivery Network.png>) |
 | 13 | **Schema Design and Relationships** | Database & Data Modeling | [✏️ Open Eraser Board](https://app.eraser.io/workspace/cM85Y5gZ5j9mLCTXaxp1) | [🖼️ View Diagram](<Schema Design and Relationships.png>) |
 | 14 | **Caching** | Caching & Performance | [✏️ Open Eraser Board](https://app.eraser.io/workspace/D48jD4djD7UlXDElsLoP?origin=share) | [🖼️ View Diagram](<Caching.png>) |
+| 15 | **Type of Caching** | Caching & Performance | [✏️ Open Eraser Board](https://app.eraser.io/workspace/54GjwlkFWadchdUuuy5n?origin=share) | [🖼️ View Diagram](<Type of Caching.png>) |
+| 16 | **Redis & Memcached** | In-Memory Stores | [🎨 Open Board](https://excalidraw.com/#json=drKpRODPgyeMbdpjQTlxI,qdp88jHX7PEexyazGrKb8Q) | [🖼️ View Diagram](<Redis & Memcached.png>) |
 
 ---
 
@@ -209,6 +211,32 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>15. Caching: Type of Caching</b></summary>
+
+<br>
+
+- **Scope**: Multi-tier caching architecture, Client-Side (Browser/OS), CDN & Edge caching, Application/In-Memory caching, Web Server & Proxy caching, and Database query/buffer caching.
+- **Links**: [Eraser Workspace](https://app.eraser.io/workspace/54GjwlkFWadchdUuuy5n?origin=share) | [Full Image](<Type of Caching.png>)
+- **Diagram Preview**:
+
+![Type of Caching](<Type of Caching.png>)
+
+</details>
+
+<details>
+<summary><b>16. In-Memory Stores: Redis & Memcached</b></summary>
+
+<br>
+
+- **Scope**: In-depth comparison of Redis vs. Memcached: Data Structures (Strings, Hashes, Lists, Sets, Sorted Sets), Threading Models (Single-threaded event loop vs. Multi-threaded), Persistence (RDB/AOF), Replication & High Availability (Redis Sentinel/Cluster), and Memory Management.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=drKpRODPgyeMbdpjQTlxI,qdp88jHX7PEexyazGrKb8Q) | [Full Image](<Redis & Memcached.png>)
+- **Diagram Preview**:
+
+![Redis & Memcached](<Redis & Memcached.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -229,7 +257,9 @@ System-Design/
 ├── API Rate Limiting and Throttling.png            # Topic 11 Diagram
 ├── Content Delivery Network.png                    # Topic 12 Diagram
 ├── Schema Design and Relationships.png             # Topic 13 Diagram
-└── Caching.png                                     # Topic 14 Diagram
+├── Caching.png                                     # Topic 14 Diagram
+├── Type of Caching.png                             # Topic 15 Diagram
+└── Redis & Memcached.png                           # Topic 16 Diagram
 ```
 
 ---
@@ -249,7 +279,9 @@ System-Design/
 - [x] Rate Limiting Algorithms & Throttling Strategies
 - [x] Content Delivery Networks (CDN) & Edge Caching
 - [x] Database Schema Design, Normalization & ER Relationships
-- [x] Caching Strategies & Architecture (Redis, Memcached, Patterns & Eviction)
+- [x] Caching Strategies & Architecture
+- [x] Caching Layers & Types (Client, Application, CDN, DB)
+- [x] In-Memory Cache Engines (Redis vs Memcached Comparison)
 - [ ] Database Sharding & Replication
 - [ ] Message Queues (Kafka, RabbitMQ)
 - [ ] CAP & PACELC Theorems
