@@ -21,9 +21,10 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 11 | **API Rate Limiting and Throttling** | API & Traffic Control | [🎨 Open Board](https://excalidraw.com/#json=IDsR7SAEk3FNSFcrhKa8o,2Mts3-fPVqS5EmyKd_r1Kg) | [🖼️ View Diagram](<API Rate Limiting and Throttling.png>) |
 | 12 | **Content Delivery Network (CDN)** | Infrastructure & Caching | [🎨 Open Board](https://excalidraw.com/#json=_BowhjhNIDQlu_LJutmeQ,QF4_Cnnayia4UWSnLeNyRg) | [🖼️ View Diagram](<Content Delivery Network.png>) |
 | 13 | **Schema Design and Relationships** | Database & Data Modeling | [✏️ Open Eraser Board](https://app.eraser.io/workspace/cM85Y5gZ5j9mLCTXaxp1) | [🖼️ View Diagram](<Schema Design and Relationships.png>) |
-| 14 | **Caching** | Caching & Performance | [✏️ Open Eraser Board](https://app.eraser.io/workspace/D48jD4djD7UlXDElsLoP?origin=share) | [🖼️ View Diagram](<Caching.png>) |
+| 14 | **Caching** | Caching & Performance | [✏️ Open Eraser Board](https://app.eraser.io/workspace/dmz0jga2Tp453mev1iH4?origin=share) | [🖼️ View Diagram](<Caching.png>) |
 | 15 | **Type of Caching** | Caching & Performance | [✏️ Open Eraser Board](https://app.eraser.io/workspace/54GjwlkFWadchdUuuy5n?origin=share) | [🖼️ View Diagram](<Type of Caching.png>) |
 | 16 | **Redis & Memcached** | In-Memory Stores | [🎨 Open Board](https://excalidraw.com/#json=drKpRODPgyeMbdpjQTlxI,qdp88jHX7PEexyazGrKb8Q) | [🖼️ View Diagram](<Redis & Memcached.png>) |
+| 17 | **Cache Eviction Policies - LRU vs LFU** | Caching & Memory Management | [✏️ Open Eraser Board](https://app.eraser.io/workspace/QDBJPkaQZUycoLNqq6SD?origin=share) | [🖼️ View Diagram](<Cache Eviction Policies - LRU vs LFU.png>) |
 
 ---
 
@@ -204,7 +205,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 <br>
 
 - **Scope**: In-memory caching (Redis, Memcached), Caching Patterns (Cache-Aside, Write-Through, Write-Behind, Read-Through), Eviction Policies (LRU, LFU, FIFO), Cache Stampede / Thundering Herd mitigation, and Distributed Caching.
-- **Links**: [Eraser Workspace](https://app.eraser.io/workspace/D48jD4djD7UlXDElsLoP?origin=share) | [Full Image](<Caching.png>)
+- **Links**: [Eraser Workspace](https://app.eraser.io/workspace/dmz0jga2Tp453mev1iH4?origin=share) | [Full Image](<Caching.png>)
 - **Diagram Preview**:
 
 ![Caching](<Caching.png>)
@@ -237,6 +238,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>17. Caching: Cache Eviction Policies - LRU vs LFU</b></summary>
+
+<br>
+
+- **Scope**: Cache Eviction Policy comparison (Least Recently Used vs Least Frequently Used vs FIFO vs LIFO vs Random Eviction), underlying Data Structures (Doubly Linked List + Hash Map for LRU, Frequency Buckets / Min-Heap + Hash Map for LFU), Time & Space Complexity trade-offs, and Memory Eviction in Redis and OS Page Replacement.
+- **Links**: [Eraser Workspace](https://app.eraser.io/workspace/QDBJPkaQZUycoLNqq6SD?origin=share) | [Full Image](<Cache Eviction Policies - LRU vs LFU.png>)
+- **Diagram Preview**:
+
+![Cache Eviction Policies - LRU vs LFU](<Cache Eviction Policies - LRU vs LFU.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -259,7 +273,8 @@ System-Design/
 ├── Schema Design and Relationships.png             # Topic 13 Diagram
 ├── Caching.png                                     # Topic 14 Diagram
 ├── Type of Caching.png                             # Topic 15 Diagram
-└── Redis & Memcached.png                           # Topic 16 Diagram
+├── Redis & Memcached.png                           # Topic 16 Diagram
+└── Cache Eviction Policies - LRU vs LFU.png        # Topic 17 Diagram
 ```
 
 ---
@@ -282,6 +297,7 @@ System-Design/
 - [x] Caching Strategies & Architecture
 - [x] Caching Layers & Types (Client, Application, CDN, DB)
 - [x] In-Memory Cache Engines (Redis vs Memcached Comparison)
+- [x] Cache Eviction Algorithms (LRU, LFU, FIFO, Data Structures & Trade-offs)
 - [ ] Database Sharding & Replication
 - [ ] Message Queues (Kafka, RabbitMQ)
 - [ ] CAP & PACELC Theorems

@@ -11,6 +11,7 @@ RESTful APIs -> https://excalidraw.com/#json=cU35Ma24lHtCln6r3wvEX,Q-jzVRTIhECED
 API Rate Limiting and Throttling -> https://excalidraw.com/#json=IDsR7SAEk3FNSFcrhKa8o,2Mts3-fPVqS5EmyKd_r1Kg
 Content Delivery Network -> https://excalidraw.com/#json=_BowhjhNIDQlu_LJutmeQ,QF4_Cnnayia4UWSnLeNyRg
 Schema Design and Relationships -> https://app.eraser.io/workspace/cM85Y5gZ5j9mLCTXaxp1
-Caching -> https://app.eraser.io/workspace/D48jD4djD7UlXDElsLoP?origin=share
+Caching -> https://app.eraser.io/workspace/dmz0jga2Tp453mev1iH4?origin=share
 Type of Caching -> https://app.eraser.io/workspace/54GjwlkFWadchdUuuy5n?origin=share
 Redis & Memcached -> https://excalidraw.com/#json=drKpRODPgyeMbdpjQTlxI,qdp88jHX7PEexyazGrKb8Q
+Cache Eviction Policies - LRU vs LFU -> https://app.eraser.io/workspace/QDBJPkaQZUycoLNqq6SD?origin=share
