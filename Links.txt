@@ -16,3 +16,4 @@ Type of Caching -> https://app.eraser.io/workspace/54GjwlkFWadchdUuuy5n?origin=s
 Redis & Memcached -> https://excalidraw.com/#json=drKpRODPgyeMbdpjQTlxI,qdp88jHX7PEexyazGrKb8Q
 Cache Eviction Policies - LRU vs LFU -> https://app.eraser.io/workspace/QDBJPkaQZUycoLNqq6SD?origin=share
 Caching Strategies -> https://excalidraw.com/#json=AoLWoEMRuZWbplFNb0AFk,RdystvlQp-z_EJTu3xTK-g
+Role of Load Balancers -> https://app.eraser.io/workspace/mKLOuKQWagQtL7FtnU8x?origin=share

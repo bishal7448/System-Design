@@ -25,6 +25,8 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 15 | **Type of Caching** | Caching & Performance | [✏️ Open Eraser Board](https://app.eraser.io/workspace/54GjwlkFWadchdUuuy5n?origin=share) | [🖼️ View Diagram](<Type of Caching.png>) |
 | 16 | **Redis & Memcached** | In-Memory Stores | [🎨 Open Board](https://excalidraw.com/#json=drKpRODPgyeMbdpjQTlxI,qdp88jHX7PEexyazGrKb8Q) | [🖼️ View Diagram](<Redis & Memcached.png>) |
 | 17 | **Cache Eviction Policies - LRU vs LFU** | Caching & Memory Management | [✏️ Open Eraser Board](https://app.eraser.io/workspace/QDBJPkaQZUycoLNqq6SD?origin=share) | [🖼️ View Diagram](<Cache Eviction Policies - LRU vs LFU.png>) |
+| 18 | **Caching Strategies** | Caching & Performance | [🎨 Open Board](https://excalidraw.com/#json=AoLWoEMRuZWbplFNb0AFk,RdystvlQp-z_EJTu3xTK-g) | [🖼️ View Diagram](<Caching Strategies.png>) |
+| 19 | **Role of Load Balancers** | Infrastructure & Load Balancing | [✏️ Open Eraser Board](https://app.eraser.io/workspace/mKLOuKQWagQtL7FtnU8x?origin=share) | [🖼️ View Diagram](<Role of Load Balancers.png>) |
 
 ---
 
@@ -251,6 +253,32 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>18. Caching: Caching Strategies</b></summary>
+
+<br>
+
+- **Scope**: Detailed read/write caching strategies: Cache-Aside (Lazy Loading), Read-Through, Write-Through, Write-Around, and Write-Back (Write-Behind). Trade-offs in data consistency, latency, and data loss risk.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=AoLWoEMRuZWbplFNb0AFk,RdystvlQp-z_EJTu3xTK-g) | [Full Image](<Caching Strategies.png>)
+- **Diagram Preview**:
+
+![Caching Strategies](<Caching Strategies.png>)
+
+</details>
+
+<details>
+<summary><b>19. Infrastructure: Role of Load Balancers</b></summary>
+
+<br>
+
+- **Scope**: Functions and architectural roles of Load Balancers: Traffic Distribution, High Availability & Redundancy, SSL/TLS Offloading, Health Checking & Auto-Healing, Session Affinity (Sticky Sessions), and Security/DDoS Mitigation.
+- **Links**: [Eraser Workspace](https://app.eraser.io/workspace/mKLOuKQWagQtL7FtnU8x?origin=share) | [Full Image](<Role of Load Balancers.png>)
+- **Diagram Preview**:
+
+![Role of Load Balancers](<Role of Load Balancers.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -274,7 +302,9 @@ System-Design/
 ├── Caching.png                                     # Topic 14 Diagram
 ├── Type of Caching.png                             # Topic 15 Diagram
 ├── Redis & Memcached.png                           # Topic 16 Diagram
-└── Cache Eviction Policies - LRU vs LFU.png        # Topic 17 Diagram
+├── Cache Eviction Policies - LRU vs LFU.png        # Topic 17 Diagram
+├── Caching Strategies.png                          # Topic 18 Diagram
+└── Role of Load Balancers.png                      # Topic 19 Diagram
 ```
 
 ---
@@ -298,6 +328,8 @@ System-Design/
 - [x] Caching Layers & Types (Client, Application, CDN, DB)
 - [x] In-Memory Cache Engines (Redis vs Memcached Comparison)
 - [x] Cache Eviction Algorithms (LRU, LFU, FIFO, Data Structures & Trade-offs)
+- [x] Read & Write Caching Strategies (Cache-Aside, Write-Through, Write-Back)
+- [x] Role & Functions of Load Balancers (HA, SSL Termination, Health Checks)
 - [ ] Database Sharding & Replication
 - [ ] Message Queues (Kafka, RabbitMQ)
 - [ ] CAP & PACELC Theorems
