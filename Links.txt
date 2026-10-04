@@ -18,3 +18,4 @@ Cache Eviction Policies - LRU vs LFU -> https://app.eraser.io/workspace/QDBJPkaQ
 Caching Strategies -> https://excalidraw.com/#json=AoLWoEMRuZWbplFNb0AFk,RdystvlQp-z_EJTu3xTK-g
 Role of Load Balancers -> https://app.eraser.io/workspace/mKLOuKQWagQtL7FtnU8x?origin=share
 Different Types of Load Balancer -> https://excalidraw.com/#json=IjLahsn5wJVPdwE5Kf7JF,hSkyJQbWwk6ykjGeQ7-KzA
+Type of Load Balancing Alogorithm -> https://excalidraw.com/#json=AFtFR-GsQIwAp8Qsf5rJ1,jvwC-QcEG-_4KBRBmnIk0Q

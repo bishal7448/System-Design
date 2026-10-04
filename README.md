@@ -27,6 +27,8 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 17 | **Cache Eviction Policies - LRU vs LFU** | Caching & Memory Management | [✏️ Open Eraser Board](https://app.eraser.io/workspace/QDBJPkaQZUycoLNqq6SD?origin=share) | [🖼️ View Diagram](<Cache Eviction Policies - LRU vs LFU.png>) |
 | 18 | **Caching Strategies** | Caching & Performance | [🎨 Open Board](https://excalidraw.com/#json=AoLWoEMRuZWbplFNb0AFk,RdystvlQp-z_EJTu3xTK-g) | [🖼️ View Diagram](<Caching Strategies.png>) |
 | 19 | **Role of Load Balancers** | Infrastructure & Load Balancing | [✏️ Open Eraser Board](https://app.eraser.io/workspace/mKLOuKQWagQtL7FtnU8x?origin=share) | [🖼️ View Diagram](<Role of Load Balancers.png>) |
+| 20 | **Different Types of Load Balancer** | Infrastructure & Load Balancing | [🎨 Open Board](https://excalidraw.com/#json=IjLahsn5wJVPdwE5Kf7JF,hSkyJQbWwk6ykjGeQ7-KzA) | [🖼️ View Diagram](<Different Types of Load Balancer.png>) |
+| 21 | **Types of Load Balancing Algorithms** | Infrastructure & Load Balancing | [🎨 Open Board](https://excalidraw.com/#json=AFtFR-GsQIwAp8Qsf5rJ1,jvwC-QcEG-_4KBRBmnIk0Q) | [🖼️ View Diagram](<Type of Load Balancing Alogorithm.png>) |
 
 ---
 
@@ -279,6 +281,32 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>20. Infrastructure: Different Types of Load Balancer</b></summary>
+
+<br>
+
+- **Scope**: Layer 4 (Transport / TCP-UDP) vs. Layer 7 (Application / HTTP-HTTPS) Load Balancers, Hardware vs. Software LBs (NGINX, HAProxy, Envoy), Cloud Load Balancers (AWS ALB/NLB, GCP CLB), and Global Server Load Balancing (GSLB) with Geo-DNS.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=IjLahsn5wJVPdwE5Kf7JF,hSkyJQbWwk6ykjGeQ7-KzA) | [Full Image](<Different Types of Load Balancer.png>)
+- **Diagram Preview**:
+
+![Different Types of Load Balancer](<Different Types of Load Balancer.png>)
+
+</details>
+
+<details>
+<summary><b>21. Infrastructure: Types of Load Balancing Algorithms</b></summary>
+
+<br>
+
+- **Scope**: Static Algorithms (Round Robin, Weighted Round Robin, IP Hash) vs. Dynamic Algorithms (Least Connections, Weighted Least Connections, Least Response Time / Latency), and Consistent Hashing for stateful request routing.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=AFtFR-GsQIwAp8Qsf5rJ1,jvwC-QcEG-_4KBRBmnIk0Q) | [Full Image](<Type of Load Balancing Alogorithm.png>)
+- **Diagram Preview**:
+
+![Types of Load Balancing Algorithms](<Type of Load Balancing Alogorithm.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -304,7 +332,9 @@ System-Design/
 ├── Redis & Memcached.png                           # Topic 16 Diagram
 ├── Cache Eviction Policies - LRU vs LFU.png        # Topic 17 Diagram
 ├── Caching Strategies.png                          # Topic 18 Diagram
-└── Role of Load Balancers.png                      # Topic 19 Diagram
+├── Role of Load Balancers.png                      # Topic 19 Diagram
+├── Different Types of Load Balancer.png            # Topic 20 Diagram
+└── Type of Load Balancing Alogorithm.png           # Topic 21 Diagram
 ```
 
 ---
@@ -330,6 +360,8 @@ System-Design/
 - [x] Cache Eviction Algorithms (LRU, LFU, FIFO, Data Structures & Trade-offs)
 - [x] Read & Write Caching Strategies (Cache-Aside, Write-Through, Write-Back)
 - [x] Role & Functions of Load Balancers (HA, SSL Termination, Health Checks)
+- [x] Types of Load Balancers (L4 vs L7, Hardware, Software, Cloud & GSLB)
+- [x] Load Balancing Algorithms (Static, Dynamic & Consistent Hashing)
 - [ ] Database Sharding & Replication
 - [ ] Message Queues (Kafka, RabbitMQ)
 - [ ] CAP & PACELC Theorems
