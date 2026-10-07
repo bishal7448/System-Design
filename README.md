@@ -29,6 +29,8 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 19 | **Role of Load Balancers** | Infrastructure & Load Balancing | [✏️ Open Eraser Board](https://app.eraser.io/workspace/mKLOuKQWagQtL7FtnU8x?origin=share) | [🖼️ View Diagram](<Role of Load Balancers.png>) |
 | 20 | **Different Types of Load Balancer** | Infrastructure & Load Balancing | [🎨 Open Board](https://excalidraw.com/#json=IjLahsn5wJVPdwE5Kf7JF,hSkyJQbWwk6ykjGeQ7-KzA) | [🖼️ View Diagram](<Different Types of Load Balancer.png>) |
 | 21 | **Types of Load Balancing Algorithms** | Infrastructure & Load Balancing | [🎨 Open Board](https://excalidraw.com/#json=AFtFR-GsQIwAp8Qsf5rJ1,jvwC-QcEG-_4KBRBmnIk0Q) | [🖼️ View Diagram](<Type of Load Balancing Alogorithm.png>) |
+| 22 | **Weighted Load Balancing** | Infrastructure & Load Balancing | [🎨 Open Board](https://excalidraw.com/#json=SxVgmv40T60Ew37jjKzdC,Rg2da47EnYrYAUOjoRjegw) | [🖼️ View Diagram](<Weighted Load Balancing.png>) |
+| 23 | **Failover and Redundancy** | High Availability & Resilience | [🎨 Open Board](https://excalidraw.com/#json=3xPhVDguhdnyFbkZ-BbhJ,Lm_5HzXMOmBB_UDLL8jmZQ) | [🖼️ View Diagram](<Failover and Redundancy.png>) |
 
 ---
 
@@ -307,6 +309,32 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>22. Infrastructure: Weighted Load Balancing</b></summary>
+
+<br>
+
+- **Scope**: Weighted Round Robin and Weighted Least Connections algorithms, allocating traffic proportion based on server capacities, managing heterogeneous server clusters, and dynamic weight adjustments.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=SxVgmv40T60Ew37jjKzdC,Rg2da47EnYrYAUOjoRjegw) | [Full Image](<Weighted Load Balancing.png>)
+- **Diagram Preview**:
+
+![Weighted Load Balancing](<Weighted Load Balancing.png>)
+
+</details>
+
+<details>
+<summary><b>23. High Availability: Failover and Redundancy</b></summary>
+
+<br>
+
+- **Scope**: Active-Passive vs. Active-Active failover architectures, Virtual IP (VIP) floating, health checks & heartbeat monitoring, split-brain scenario resolution, and auto-failover mechanisms.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=3xPhVDguhdnyFbkZ-BbhJ,Lm_5HzXMOmBB_UDLL8jmZQ) | [Full Image](<Failover and Redundancy.png>)
+- **Diagram Preview**:
+
+![Failover and Redundancy](<Failover and Redundancy.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -334,7 +362,9 @@ System-Design/
 ├── Caching Strategies.png                          # Topic 18 Diagram
 ├── Role of Load Balancers.png                      # Topic 19 Diagram
 ├── Different Types of Load Balancer.png            # Topic 20 Diagram
-└── Type of Load Balancing Alogorithm.png           # Topic 21 Diagram
+├── Type of Load Balancing Alogorithm.png           # Topic 21 Diagram
+├── Weighted Load Balancing.png                     # Topic 22 Diagram
+└── Failover and Redundancy.png                     # Topic 23 Diagram
 ```
 
 ---
@@ -362,6 +392,8 @@ System-Design/
 - [x] Role & Functions of Load Balancers (HA, SSL Termination, Health Checks)
 - [x] Types of Load Balancers (L4 vs L7, Hardware, Software, Cloud & GSLB)
 - [x] Load Balancing Algorithms (Static, Dynamic & Consistent Hashing)
+- [x] Weighted Load Balancing Algorithms & Server Capacity Allocation
+- [x] High Availability, Failover Mechanisms & Redundancy (Active-Passive / Active-Active)
 - [ ] Database Sharding & Replication
 - [ ] Message Queues (Kafka, RabbitMQ)
 - [ ] CAP & PACELC Theorems
