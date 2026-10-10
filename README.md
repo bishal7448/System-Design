@@ -31,6 +31,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 21 | **Types of Load Balancing Algorithms** | Infrastructure & Load Balancing | [🎨 Open Board](https://excalidraw.com/#json=AFtFR-GsQIwAp8Qsf5rJ1,jvwC-QcEG-_4KBRBmnIk0Q) | [🖼️ View Diagram](<Type of Load Balancing Alogorithm.png>) |
 | 22 | **Weighted Load Balancing** | Infrastructure & Load Balancing | [🎨 Open Board](https://excalidraw.com/#json=SxVgmv40T60Ew37jjKzdC,Rg2da47EnYrYAUOjoRjegw) | [🖼️ View Diagram](<Weighted Load Balancing.png>) |
 | 23 | **Failover and Redundancy** | High Availability & Resilience | [🎨 Open Board](https://excalidraw.com/#json=3xPhVDguhdnyFbkZ-BbhJ,Lm_5HzXMOmBB_UDLL8jmZQ) | [🖼️ View Diagram](<Failover and Redundancy.png>) |
+| 24 | **Message Queues** | Asynchronous Messaging & Queues | [🎨 Open Board](https://excalidraw.com/#json=VFbMWhWm8wdZSdMVkPJnF,CxKpVOBjpGwFPm8H4Avlfg) | [🖼️ View Diagram](<Message Queues.png>) |
 
 ---
 
@@ -335,6 +336,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>24. Messaging: Message Queues</b></summary>
+
+<br>
+
+- **Scope**: Asynchronous communication patterns, Producer-Consumer architecture, Message Brokers (Kafka, RabbitMQ, SQS), Publish-Subscribe vs. Point-to-Point queues, Dead Letter Queues (DLQ), Backpressure, and At-Least-Once / Exactly-Once delivery guarantees.
+- **Links**: [Excalidraw Canvas](https://excalidraw.com/#json=VFbMWhWm8wdZSdMVkPJnF,CxKpVOBjpGwFPm8H4Avlfg) | [Full Image](<Message Queues.png>)
+- **Diagram Preview**:
+
+![Message Queues](<Message Queues.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -364,7 +378,8 @@ System-Design/
 ├── Different Types of Load Balancer.png            # Topic 20 Diagram
 ├── Type of Load Balancing Alogorithm.png           # Topic 21 Diagram
 ├── Weighted Load Balancing.png                     # Topic 22 Diagram
-└── Failover and Redundancy.png                     # Topic 23 Diagram
+├── Failover and Redundancy.png                     # Topic 23 Diagram
+└── Message Queues.png                              # Topic 24 Diagram
 ```
 
 ---
@@ -395,7 +410,7 @@ System-Design/
 - [x] Weighted Load Balancing Algorithms & Server Capacity Allocation
 - [x] High Availability, Failover Mechanisms & Redundancy (Active-Passive / Active-Active)
 - [ ] Database Sharding & Replication
-- [ ] Message Queues (Kafka, RabbitMQ)
+- [x] Message Queues (Kafka, RabbitMQ, SQS & Pub/Sub Patterns)
 - [ ] CAP & PACELC Theorems
 - [ ] Consistent Hashing
 
