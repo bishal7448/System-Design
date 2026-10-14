@@ -22,3 +22,4 @@ Type of Load Balancing Alogorithm -> https://excalidraw.com/#json=AFtFR-GsQIwAp8
 Weighted Load Balancing -> https://excalidraw.com/#json=SxVgmv40T60Ew37jjKzdC,Rg2da47EnYrYAUOjoRjegw
 Failover and Redundancy -> https://excalidraw.com/#json=3xPhVDguhdnyFbkZ-BbhJ,Lm_5HzXMOmBB_UDLL8jmZQ
 Message Queues -> https://excalidraw.com/#json=VFbMWhWm8wdZSdMVkPJnF,CxKpVOBjpGwFPm8H4Avlfg
+Synchronous and Asynchronous Communication -> https://www.tldraw.com/f/4uB9R6h5rSIbm_a_9mRbO?d=v-514.-264.2304.1255.page

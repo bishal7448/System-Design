@@ -32,6 +32,7 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 | 22 | **Weighted Load Balancing** | Infrastructure & Load Balancing | [🎨 Open Board](https://excalidraw.com/#json=SxVgmv40T60Ew37jjKzdC,Rg2da47EnYrYAUOjoRjegw) | [🖼️ View Diagram](<Weighted Load Balancing.png>) |
 | 23 | **Failover and Redundancy** | High Availability & Resilience | [🎨 Open Board](https://excalidraw.com/#json=3xPhVDguhdnyFbkZ-BbhJ,Lm_5HzXMOmBB_UDLL8jmZQ) | [🖼️ View Diagram](<Failover and Redundancy.png>) |
 | 24 | **Message Queues** | Asynchronous Messaging & Queues | [🎨 Open Board](https://excalidraw.com/#json=VFbMWhWm8wdZSdMVkPJnF,CxKpVOBjpGwFPm8H4Avlfg) | [🖼️ View Diagram](<Message Queues.png>) |
+| 25 | **Synchronous and Asynchronous Communication** | System Communication | [🎨 Open tldraw Board](https://www.tldraw.com/f/4uB9R6h5rSIbm_a_9mRbO?d=v-514.-264.2304.1255.page) | [🖼️ View Diagram](<Synchronous and Asynchronous Communication.png>) |
 
 ---
 
@@ -349,6 +350,19 @@ A curated, easy-to-navigate index of System Design, High-Level Design (HLD), and
 
 </details>
 
+<details>
+<summary><b>25. Communication: Synchronous and Asynchronous Communication</b></summary>
+
+<br>
+
+- **Scope**: Synchronous request-response vs. asynchronous decoupled event-driven workflows, blocking vs. non-blocking I/O, latency impact, cascading timeouts, polling vs. push/webhooks, and decoupled system resiliency.
+- **Links**: [tldraw Canvas](https://www.tldraw.com/f/4uB9R6h5rSIbm_a_9mRbO?d=v-514.-264.2304.1255.page) | [Full Image](<Synchronous and Asynchronous Communication.png>)
+- **Diagram Preview**:
+
+![Synchronous and Asynchronous Communication](<Synchronous and Asynchronous Communication.png>)
+
+</details>
+
 ---
 
 ## 📁 Repository Structure
@@ -379,7 +393,8 @@ System-Design/
 ├── Type of Load Balancing Alogorithm.png           # Topic 21 Diagram
 ├── Weighted Load Balancing.png                     # Topic 22 Diagram
 ├── Failover and Redundancy.png                     # Topic 23 Diagram
-└── Message Queues.png                              # Topic 24 Diagram
+├── Message Queues.png                              # Topic 24 Diagram
+└── Synchronous and Asynchronous Communication.png  # Topic 25 Diagram
 ```
 
 ---
@@ -411,6 +426,7 @@ System-Design/
 - [x] High Availability, Failover Mechanisms & Redundancy (Active-Passive / Active-Active)
 - [ ] Database Sharding & Replication
 - [x] Message Queues (Kafka, RabbitMQ, SQS & Pub/Sub Patterns)
+- [x] Synchronous vs Asynchronous Communication (Request-Response, Event-Driven & Webhooks)
 - [ ] CAP & PACELC Theorems
 - [ ] Consistent Hashing
 
